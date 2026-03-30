@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# LaTeX auxiliary (keep sources; ignore build artifacts)
+doc/*.aux
+doc/*.bbl
+doc/*.blg
+doc/*.out
+doc/*.toc
+doc/*.lof
+doc/*.lot
+doc/*.fls
+doc/*.fdb_latexmk
+doc/*.synctex.gz
+doc/_minted*/
+
+# Optional: do not publish raw campaign exports (uncomment if needed)
+# data/*.xlsx
